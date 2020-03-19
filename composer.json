@@ -1,36 +1,11 @@
 {
-    "name": "topthink/think",
-    "description": "the new thinkphp framework",
-    "type": "project",
-    "keywords": [
-        "framework",
-        "thinkphp",
-        "ORM"
-    ],
-    "homepage": "http://thinkphp.cn/",
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
-        }
-    ],
+    "name"  : "workerman/workerman-todpole",
+    "type"  : "project",
+    "keywords": ["chat"],
+    "homepage": "http://www.workerman.net",
+    "license" : "MIT",
     "require": {
-        "php": ">=5.5.0",
-        "illuminate/auth": "v5.5.2",
-        "topthink/framework": "^5.0"
-    },
-    "extra": {
-        "think-path": "thinkphp"
-    },
-    "config": {
-        "preferred-install": "dist",
-        "secure-http": true
-    },
-    "reposicomptories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
-        }
+        "workerman/gateway-worker" : ">=3.0.0",
+        "workerman/workerman" : "~4.0.0"
     }
 }

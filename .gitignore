@@ -1,4 +1,4 @@
-.idea
-composer.lock
-*.log
-thinkphp
+.buildpath
+.settings/org.eclipse.php.core.prefs
+.project
+workerman/logs
